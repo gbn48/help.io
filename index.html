@@ -1,57 +1,547 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Help.io by gbn48</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Help.io</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/gbn48/help.io" class="btn">View on GitHub</a>
-      <a href="https://github.com/gbn48/help.io/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/gbn48/help.io/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<!--headTrap<body></body><head></head><html></html>--><html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<script nonce="" type="text/javascript">
+window.__nonce_str = ""
+if (window.__nonce_str && location.href.indexOf("http://")==0 && Math.random() <= 0.1) {
+	window.__moonsafe_csp_offset || (window.__moonsafe_csp_offset = 18);
+	document.write('<meta http-equiv="Content-Security-Policy" content="script-src \'unsafe-inline\' \'unsafe-eval\' *.qq.com *.weishi.com'+(window.__nonce_str ? ' \'nonce-' + window.__nonce_str + "\'":"")+ '">');
+        
+}
+</script>
+        <script nonce="" type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+<script type="text/javascript"> 
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+    var page_begintime = (+new Date());
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+    var biz = "MzI4NjIzNjQ1NQ=="||"";
+    var sn = "" || ""|| "0bbbae4f603ae4b9a8c93a5785d8117c";
+    var mid = "100000016" || ""|| "100000016";
+    var idx = "1" || "" || "1";
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+    //辟谣需求
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+    //原创需求，需要跳转到中间页
+    /*
+    var copyrightInfo = {
+        display_source : ""*1,
+        nocopyrightsource : ""*1
+    };
+    if (!!copyrightInfo.display_source&&!copyrightInfo.nocopyrightsource){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/reprint") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/reprint?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }*/
+</script>
+<script type="text/javascript">
+var MutationObserver = window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver;
+var isDangerSrc = function(src) {
+    if(src) {
+        var host = src.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+        if(host && !/qq\.com(\:8080)?$/.test(host[1]) && !/weishi\.com$/.test(host[1])) {
+            return true;
+        }
+    }
+    return false;
+}
+var ishttp = location.href.indexOf("http://")==0;
+if (ishttp && typeof MutationObserver === 'function' && location.host == 'mp.weixin.qq.com') {
+    window.__observer_data = {count:0, exec_time: 0, list:[]};
+    window.__observer = new MutationObserver(function(mutations) {
+        // 统计触发的次数
+        window.__observer_data.count++;
+        var begin = new Date(), deleteNodes = [];
+        mutations.forEach(function(mutation) {
+            var nodes = mutation.addedNodes;
+            for (var i = 0; i < nodes.length; i++) {
+                var node = nodes[i];
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+                if (node.tagName === 'SCRIPT') {
+                    var scriptSrc = node.src;
+                    if(isDangerSrc(scriptSrc)) {
+                        window.__observer_data.list.push(scriptSrc);
+                        deleteNodes.push(node);
+                    }
+                
+                }
+            }
+        });
+        for(var i=0; i<deleteNodes.length; i++) {
+            var node = deleteNodes[i];
+            node.parentNode.removeChild(node);
+        }
+        window.__observer_data.exec_time += (new Date() - begin);
+    });
+    window.__observer.observe(document, {subtree: true, childList: true});
+}
+(function() {
+    if (Math.random()<0.01 && ishttp && HTMLScriptElement.prototype.__lookupSetter__ && typeof Object.defineProperty !== "undefined") {
+        window.__danger_src = {xmlhttprequest:[], script_src: [], script_setAttribute: []};
+        var t = "$"+Math.random();
+        // script.src
+        HTMLScriptElement.prototype.__old_method_script_src = HTMLScriptElement.prototype.__lookupSetter__ ('src');
+        HTMLScriptElement.prototype.__defineSetter__ ('src', function(url) {
+            if (url && isDangerSrc(url)) {
+                // console.log("src:"+url);
+                window.__danger_src.script_src.push(url);
+            }
+            this.__old_method_script_src(url);
+        });
+        var element_setAttribute_method = "element_setAttribute"+t;
+        Object.defineProperty(Element.prototype, element_setAttribute_method, {
+            value: Element.prototype.setAttribute,
+            enumerable: false
+        });
+        Element.prototype.setAttribute = function(name, url) {
+            if (this.tagName == 'SCRIPT' && name == 'src' && isDangerSrc(url)) {
+                // console.log("setAttr:"+url);
+                window.__danger_src.script_setAttribute.push(url);
+            }
+            this[element_setAttribute_method](name, url);
+        };
+    }
+})();
+</script>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        <link rel="dns-prefetch" href="//res.wx.qq.com">
+<link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script nonce="" type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/gbn48/help.io">Help.io</a> is maintained by <a href="https://github.com/gbn48">gbn48</a>.</span>
+</script>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+        <title>“爱背词”说明书</title>
+        
+<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve2eb52b.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
 
-    </section>
+    </head>
+    <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title">“爱背词”说明书</h2>
+            <span id="log"></span>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="留言将由公众号筛选后显示，对所有人可见。"></textarea>
+                    <div class="emotion_tool">
+                        <span class="emotion_switch" style="display:none;"></span>
+                        <span id="js_emotion_switch" class="pic_emotion_switch_wrp">
+                            <img class="pic_default" src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x278965.png" alt="">
+                            <img class="pic_active" src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x278965.png" alt="">
+                        </span>
+                        <div class="emotion_panel" id="js_emotion_panel">
+                            <span class="emotion_panel_arrow_wrp" id="js_emotion_panel_arrow_wrp">
+                                <i class="emotion_panel_arrow arrow_out"></i>
+                                <i class="emotion_panel_arrow arrow_in"></i>
+                            </span>
+                            <div class="emotion_list_wrp" id="js_slide_wrapper">
+                                
+                                
+                            </div>
+                            <ul class="emotion_navs" id="js_navbar">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的留言</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="rich_tips tips_global loading_tips" id="js_mycmt_loading">
+                <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已留言</p>
+            </div>
+        </div>
+    </div>
 
-  
-  </body>
+    <div id="js_article" class="rich_media preview_appmsg">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+                        <div class="rich_media_global_msg">
+                
+                此为临时链接，仅用于文章预览，将在短期内失效
+                <a id="js_close_temp" href="javascript:;" class="icon_closed">关闭</a>
+            </div>
+                        <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        “爱背词”说明书 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2016-07-04</em>
+
+                                                <em class="rich_media_meta rich_media_meta_text">GBN48</em>
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">爱背词</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">爱背词</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">爱背词</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value"></span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">师夷长技以自强！！学不成名誓不还！！长风破浪会有时！！健康工作五十年！！</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+
+                        
+                        <p>亲爱的同学：<br  /></p><p>感谢关注“爱背词”。</p><p>“爱背词”只有一个功能，就是通过不断的重复来帮助您记忆单词。</p><p><br  /></p><p style="text-align: center;"><strong>重复是学习之母。</strong><br  /></p><p style="text-align: right;">----狄慈恩</p><p><br  /></p><p>在心理学系同学的指导下我们实现了心理学教科书上的算法，希望能为您的学习省力。</p><p>我们为词表中的每个单词找到了准确的释义，标准的发音，以及有代表性的例句，来帮助您全面掌握您遇到的每个单词。<br  /></p><p><br  /></p><p><br  /></p><p style="text-align: center;"><span style="font-size: 36px;">使用说明</span></p><hr  /><p><br  /></p><p>打开服务号，您看到的是下面的三个按钮，“设置”菜单，“不会”，“会”。</p><p style="text-align: center;"><br  /><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJRQ1mEvQOgQ4gicOlVANrESrt0qtXOQHgweIDGtx7N2PiaRsDBwiaSBUibQ/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.27697841726618705" data-w=""  /><br  /></p><p style="text-align: center;">图1：菜单</p><p style="text-align: center;"><br  /></p><p style="text-align: center;">*如果您是电子信息类的学生，请直接跳至图6.</p><p style="text-align: center;"><br  /></p><p>您只要点击一下“会”或者“不会”，一个新的单词就出现了耶！(Q&amp;A#1)</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJLnhiaw5FibRRMbhibz6bquFNpepyBEW5ibSUTak8Aic2WDL2vb9WsIlgFmg/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.17805755395683454" data-w=""  /><br  /></p><p style="text-align: center;">图2：单词<br  /></p><p style="text-align: center;"><br  /></p><p>这时，只要再点一下“不会”，单词的发音就出来了。(Q&amp;A#2)<br  /></p><p>如果点了“会”，就会直接跳过这个单词，不能听到发音了。</p><p style="text-align: center;"><br  /><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJwatdVqod1ibDU64ibo0vhlAlM6uM1aP3p5x3ADLz88c3j6DlCkic5dSqw/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.17086330935251798" data-w=""  /><br  /></p><p style="text-align: center;">图3：发音<br  /></p><p style="text-align: center;"><br  /></p><p>这时，如果再点一下“不会”，就会出现这个词的释义，并为您安排这个词的复习，因为您“不会”这个单词。</p><p>如果您点了“会”，则会直接跳过释义，出现下一个单词，不会为您安排复习，因为您认为自己已经“会”了。</p><p>学习态度一定要端正，知之为知之，不知为不知，才是能力提升之道。<br  /></p><p style="text-align: center;"><br  /><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJfh8zIjc92w3rFAHQEc5LuIp29ZdQILMcmDrP0xA4ibo37ibg7JwoAPng/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.3057553956834532" data-w=""  /><br  /></p><p style="text-align: center;">图4：释义</p><p style="text-align: center;"><br  /></p><p>如果您还想知道它的用法，请再按一下“不会”，立即出现非常棒的例句！</p><p>如果不想看例句，点击“会”直接跳过即可。仍会为您安排复习。<br  /></p><p style="text-align: center;"><br  /><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJoN7TvUAHyg4slFwSTPtUnDCB7yykthKGINksrAM3Zib3thPhGVIoUwg/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.5611510791366906" data-w=""  /><br  /></p><p style="text-align: center;">图5：例句</p><p style="text-align: center;"><br  /></p><p>此时再点击“会”或“不会”效果是一样的，都会出现下一个单词。</p><p><br  /></p><p>如果您是一个未来的程序员或者未来的电子工程师，您可能会觉得这个自动机能更好地描述这个过程：</p><p style="text-align: center;"><br  /><img data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJTX7EVp5k6Z1FtltzwAARyPg908UQrUcUvW3IZicV8eKg0YLq7qUUjAw/0?wx_fmt=png" data-ratio="0.7715827338129496" data-w="" style="width: 100%; height: auto;"  /><br  /></p><p style="text-align: center;">图6：自动机</p><p><br  /></p><p>为了满足您古怪的需求，也为了节约您月底的流量，我们为您提供了关闭发音的选项，点击“设置”中的“朗读开/关”，调节是否跳过听读环节。</p><p>我们的心理学小伙伴“墙裂”建议您不要这样做，毕竟单词发音经过非常好的压缩，花不了您多少流量。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJmp7afljGvdHlicRd0Pnfj2IQrrwOurjhxUkG81IjbwOOibT7VfF7QJQA/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6906474820143885" data-w=""  /><br  /></p><p style="text-align: center;">图7：听读开关</p><p><br  /></p><p>我们在公众号上连每日打卡功能都实现出来了哦！每天您都可以在朋友圈打卡。（手动微笑）</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJutmWNyiaZwhBiaMgUscWEyWicXHb97jib0uZCqaFZRMsaKltfIKDjPFvfw/0?wx_fmt=jpeg" data-ratio="0.5341726618705036" data-w="" style="width: 100%; height: auto;"  /><br  /></p><p style="text-align: center;">图8：每日打卡<br  /></p><p style="text-align: center;"><br  /></p><p>每背过20个单词，我们会自动为您推送一次今日进度提醒，让您随时对自己的学习进度有所了解。点开这个推送链接可以分享打卡。与朋友分享能力提升的喜悦。</p><p>每日进度统计的是每天“记住”的单词数量而不是“见到”的单词数量，“记住”是指的已经复习好，今天不会再安排复习的那些单词。这是一种对自己负责的态度。<br  /></p><p><br  /></p><p>如果我们默认的“托福词汇表”不适合您的需求，请点击“切换词表”直到切换到您喜欢的词表。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJPibaALw4EHnc1kCicSmdfrYPH7ToxUgE5EYjHlo7FicKkqZsD6Iakut2g/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6906474820143885" data-w=""  /><br  /></p><p style="text-align: center;">图9：切换词表<br  /></p><p><br  /></p><p style="text-align: center;"><span style="font-size: 36px;"><strong>最重要的事情</strong></span></p><p style="text-align: center;"><span style="font-size: 36px;"><strong>↓说一遍↓</strong></span><br  /></p><p>如果您想把微信变成背单词神器，不要犹豫，马上把本公众号置顶，您会发现生活一下子变得无比美好。（真的会有不同，亲测有效）</p><p style="text-align: center;"><img data-w="" data-ratio="1.7032374100719425" style="width: 100%; height: auto;" data-s="300,640" data-type="png" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJ2atdfQVGZibKaEQs0CXv9Gmliaiauck8JTrmbjbdEreAA0icn3NYSSq7ypyZcqus1OicuA5BWNapuia2A/0?wx_fmt=png"  /><br  />图10：微信秒变背单词神器</p><p><br  /></p><p>如果您还是喜欢APP，把本公众号添加到桌面，一秒变APP！<br  /></p><p><br  /></p><p>请漫无目的地点点下面的几个按钮，随意地开始您的学习之旅吧。<br  /></p><p>来看看我们都为您准备了哪些<a data_ue_src="http://wordlists.gbn48.com" target="_blank" href="http://wordlists.gbn48.com">词表</a>。</p><p><br  /></p><p><br  /></p><p style="text-align: center;"><span style="font-size: 36px;">Q&amp;A</span></p><hr  /><p><br  /></p><p>Q 下面的三个按钮为什么这样排列？</p><p>A “爱背词”的主界面，我们假设您选择的词表中大多数单词是陌生的，所以为了便于您的操作，将您使用最频繁的“不会”按钮放在了中间。</p><p><br  /></p><p>Q 每个发音花我多少流量？</p><p>A 每个单词读音的典型大小是16kB（比一个QQ小表情还小）。作者连聊天购物带背词全部使用流量背也没花完上月结转的流量包（300MB）。完全没有必要刻意在有WIFI的条件下才背单词，用流量顺其自然地让零碎时间发挥价值即可。</p><p><br  /></p><p>Q 为什么我对一个按钮一顿狂点之后它不再理我了？</p><p>A 因为您点击太多，它生气了。当您向微信服务器发送相同请求频率太高时，微信会认为您在攻击他们的服务器，于是“有损服务”地在一段时间内忽略掉您的更多相同请求，在五分钟内不再给予应答。如果您发现自己出现了这种情况，可能是因为这些词您已经太熟悉了。您可以选择“跳过复习”或者选择更难一点的词表。<br  /></p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJtKmFWOUia2qGdMZWIY86VFiaQk4SKiciafZiaYO7feNJhiaZg3IJiblhR0gibg/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.6906474820143885" data-w=""  /><br  /></p><p style="text-align: center;">图11：跳过复习</p><p><br  /></p><p>Q 留言反馈是谁在看？多久会给回复？</p><p>A 是本公众号的作者亲自在看，36小时内一定会给出回复。<br  /></p><p><br  /></p><p>Q 有没有什么隐藏功能(彩蛋)？<br  /></p><p>A 请点击那屏幕左下角的小键盘，输入一个单词。您将免费获得一部英汉词典和一个生词本。我们正在基于生词本进行下一步的开发。</p><p style="text-align: center;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJic6sJZcpBqFYVzka9jPlDW83iar8pqKicbibg7HO9icH82O7nSKITuQBwVA/0?wx_fmt=jpeg" style="width: 100%; height: auto;" data-ratio="0.27697841726618705" data-w=""  /><br  /></p><p style="text-align: center;">图12：彩蛋</p><p><br  /></p><p>Q 如果系统中没有我要的词表，我该怎么办？</p><p>A 如果我们没有提供您想背的词表，有三种办法可以将您想要的词表尽快添加到我们的系统中。</p><ol class=" list-paddingleft-2" style="list-style-type: decimal;"><li><p>向我们的Github仓库(https://github.com/gbn48/wordlists)提交制作好的词表，格式参照已有词表。</p></li><li><p>将制作好的词表打包发送到我的邮箱gaobin@gbn48.com。</p></li><li><p>我们提供了开源的词表制作脚本，如果您不是计算机相关专业，不会制作词表，请将您的词表整理成txt或csv或xls文件，发送到我的邮箱(gaobin@gbn48.com），如果您的词表整理得比较容易处理（最好单词，音标，释义，例句能够分别独占一行，或者比较有格式也可以），作为一个凡事自己动手丰衣足食的程序员，我会帮助您尽快将您的词表制作并添加到“爱背词”的词表库中。</p></li></ol><p>我们会非常感谢您的分享精神。</p><p><br  /></p><p>Q 要是我发现有错误，怎么办？</p><p>A 因为今后增加的大部分词表可能都是网友友情上传的，有可能会存在错误。如果您发现了错误，不要犹豫，马上给截图，直接发送留言，回复给公众号即可。或者发送邮件到我的邮箱(gaobin@gbn48.com)。即便是一个标点符号的错误，我们也马上改。</p><p>我们会对网友上传的词表从头到尾认真地人工审核一遍，尽量避免错误的发生。限于本人和本人的朋友们的词汇量，还是有可能会有漏网之鱼。请大家多多指正。</p><p><br  /></p><p style="text-align: left;">＝＝ 下面都是八卦 ＝＝<br  /></p><p><br  /></p><p>Q 你们为什么要做“爱背词”？</p><p>A 作者准备毕业后和女朋友一起出国读博士。为了自己背单词的方便，作者下载了许多背单词的软件来用。后来因为背单词过于专注，时常不能及时回复女朋友的微信消息，造成了一些非常惨烈的后果。这使作者厌倦了每天在背单词APP与微信间的来回切换一百遍的生活。作为一个凡事自己动手丰衣足食的程序员，作者干脆自己写了一个背单词的公众号来用。越用越觉得好用，怎么会这么好用，简直太好用了！于是作者就把这个公众号公开出来给大家用了。这就是“爱背词”卑微的由来。</p><p><br  /></p><p>Q 你们为什么开了公司？</p><p>A 企鹅厂要求设立服务号必须有个“主体单位”，本来想要挂靠院系，院系不给挂，又投奔实习企业，实习企业又不给挂。作为一个凡事自己动手丰衣足食的程序员，作者干脆自己成立了一家公司专门用来上线这个公众号。这就是“北京记必恩四十八科技有限公司”卑微的由来。</p><p><br  /></p><p>Q 你们为什么叫“记必恩四十八”</p><p>A 和大多数宅男一样，作为一个凡事自己动手丰衣足食的程序员，作者非常喜欢各种青春少女偶像组合，诸如少女时代，AKB48，TF-boys等，特别喜欢SNH48，所以作者按照程序员给程序中常量起名的惯用手法，抽掉自己姓名中的元音字母，后面加上48，组成了“GBN48”，作为公司的字号。而中国大陆不允许字号中有英文字母和数字，我们模仿NEC在华自称“恩益禧”的做法，取谐音定名“记必恩四十八”。这就是“记必恩四十八”这个名字卑微的由来。</p><p><br  /></p><p>Q 你们这个公众号怎么盈利？</p><p>A 谁说我们要靠公众号盈利了。我们还没有穷到要吃公众号的地步。作为一个凡事自己动手丰衣足食的程序员，作者和他的公司有的是办法养活自己。靠一双勤劳的手，再养一百个公众号也不成问题。</p><p><br  /></p><p>Q 如果你们怎么跟拓词、扇贝、百词斩竞争？</p><p>A 我们根本就不想跟这些非常好的产品竞争，相反，作者本人就是这些非常棒的产品的重度用户和忠实粉丝。在<strong>做“爱</strong>背词”之前，作为一个凡事自己动手丰衣足食的程序员，作者本人就曾经主动写信或留言给上述厂商，指出用APP背单词的问题，并热切建议他们在微信平台上做一个“爱背词”出来，在接连被拒或者被忽略之后，才索性自己做了一个。只要有好用的产品，用谁的都行。<br  /></p><p><br  /></p><p>Q 我们想投资这个公众号，怎么联系？</p><p>A 干嘛投资这个亏钱的货，这个项目我们就是铁了心打算亏钱到底的。建议您看看我们其他的项目，我们有很多比这个有盈利潜力得多的更好的非常有实力的项目。作为一个凡事自己动手丰衣足食的程序员，作者非常期待与您合作。</p><p><br  /></p><p>Q 你有女朋友吗？</p><p>A 有。不过我们团队中另一位帅小伙好像没有。如有需求请发简历至toocoo@gbn48.com<br  /></p><p><br  /></p>
+                    </div>
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_combo2eb52b.css">
+                    
+                    
+                                        
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script nonce="">
+    var __DEBUGINFO = {
+        debug_js : "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2ea69c.js",
+        res_list: []
+    };
+</script>
+        <script>window.moon_map = {"appmsg/emotion/caret.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","biz_wap/jsapi/cardticket.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report2e9114.js","pages/music_player.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player2b674b.js","pages/loadscript.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript2c9cd6.js","appmsg/emotion/dom.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom278965.js","biz_wap/utils/hashrouter.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","a/gotoappdetail.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2ea0e6.js","a/ios.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile2ea0e6.js","a/mpshop.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop2ea0e6.js","a/card.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card2ea0e6.js","biz_wap/utils/position.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position29b1f8.js","appmsg/a_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report2e2d45.js","biz_common/utils/respTypes.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/cmt_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","sougou/a_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2a9cd9.js","biz_common/utils/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","pages/voice_component.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2c5484.js","new_video/ctl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","biz_common/utils/monitor.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","biz_common/utils/spin.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/spin275627.js","biz_wap/jsapi/pay.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/pay275627.js","appmsg/reward_entry.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry2e21d7.js","appmsg/comment.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2ec548.js","appmsg/like.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2eb52b.js","appmsg/a.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2ea76c.js","pages/version4video.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video2e481d.js","rt/appmsg/getappmsgext.rt.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/a_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_tpl.html2d1390.js","biz_common/ui/imgonepx.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/dom/attr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","biz_wap/utils/ajax.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2c7a90.js","biz_common/utils/string/html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","sougou/index.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index2c7543.js","biz_wap/safe/mutation_observer_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2d5cb8.js","appmsg/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2ecee3.js","appmsg/report_and_source.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source2c0ff9.js","appmsg/page_pos.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos2ec4b2.js","appmsg/cdn_speed_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report2c57d0.js","appmsg/wxtopic.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic2e4987.js","appmsg/voice.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice2ab8bd.js","appmsg/qqmusic.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic2ab8bd.js","appmsg/iframe.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2e69b8.js","appmsg/review_image.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2d0cfe.js","appmsg/outer_link.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2c30c1.js","biz_common/dom/event.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2ec4b2.js","appmsg/cache.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/pay_for_reading.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/pay_for_reading2c5484.js","appmsg/async.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2ec84f.js","biz_wap/ui/lazyload_img.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img2ec99a.js","biz_common/log/jserr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2ec548.js","biz_wap/utils/mmversion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion275627.js","appmsg/cdn_img_lib.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib275627.js","biz_common/utils/url/parse.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2dd7fd.js","biz_common/dom/class.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","biz_wap/utils/device.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2ec99a.js"};</script><script type="text/javascript" src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/moon2eca68.js"></script>
+    <script id="topic_tpl" type="text/html">        
+        <span class="db topic_wrp">
+            <span class="topic_thumb" style="background-image:url({img_url});"></span>
+            <span class="topic_content">
+                <strong class="topic_title">{title}</strong>
+                <span class="topic_desc">{author}</span>
+                <span class="topic_info">
+                    <span class="topic_info_extra"><span class="icon_topic"></span>话题</span>
+                    <span class="topic_info_primary">相关文章{msg_num}篇</span>
+                </span>
+            </span>
+        </span>
+    </script>
+    <script id="voice_tpl" type="text/html">        
+        <span id="voice_main_<#=voiceid#>_<#=posIndex#>" class="db audio_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+            当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放            </span>
+            <span class="audio_wrp db">
+                <span id="voice_play_<#=voiceid#>_<#=posIndex#>" class="audio_play_area">
+                    <i class="icon_audio_default"></i>
+                    <i class="icon_audio_playing"></i>
+                    <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png" alt="" class="pic_audio_default">
+                </span>
+                <span class="audio_length tips_global"><#=duration_str#></span>
+                <span class="db audio_info_area">
+                    <strong class="db audio_title"><#=title#></strong>
+                    <span class="audio_source tips_global"><#if(window.nickname){#>来自<#=window.nickname#><#}#></span>
+                </span>
+                <span id="voice_progress_<#=voiceid#>_<#=posIndex#>" class="progress_bar" style="width:0px;"></span>
+            </span>
+        </span>
+    </script>
+
+    <script id="qqmusic_tpl" type="text/html">        
+        <span id="qqmusic_main_<#=comment_id#>_<#=posIndex#>" class="db qqmusic_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+            当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放            </span>
+            <span class="db qqmusic_wrp">
+                <span class="db qqmusic_bd">
+                    <span id="qqmusic_play_<#=musicid#>_<#=posIndex#>" class="play_area">
+                        <i class="icon_qqmusic_switch"></i>
+                        <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png" alt="" class="pic_qqmusic_default">
+                        <img src="<#=music_img#>" data-autourl="<#=audiourl#>" data-musicid="<#=musicid#>" class="qqmusic_thumb" alt="">
+                    </span>
+                                        <a id="qqmusic_home_<#=musicid#>_<#=posIndex#>" href="javascript:void(0);" class="access_area">
+                        <span class="qqmusic_songname"><#=music_name#></span>
+                        <span class="qqmusic_singername"><#=singer#></span>
+                        <span class="qqmusic_source"><img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png" alt=""></span>
+                    </a>
+                </span>
+            </span>       
+        </span>
+    </script>
+  <script type="text/javascript">
+      var not_in_mm_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2c9cd6.css";
+      var windowwx_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+      var tid = "";
+      var aid = "";
+      var clientversion = "11020201";
+      var appuin = "MzI4NjIzNjQ1NQ=="||"";
+
+      var source = "0";
+      var scene = 75;
+      
+      var itemidx = "";
+
+      var _copyright_stat = "0";
+      var _ori_article_type = "";
+
+      var nickname = "爱背词";
+      var appmsg_type = "6";
+      var ct = "1467612738";
+      var publish_time = "2016-07-04" || "";
+      var user_name = "gh_977afed133cf";
+      var user_name_new = "";
+      var fakeid   = "MjAwOTA3MzEyOQ==";
+      var version   = "";
+      var is_limit_user   = "0";
+      var round_head_img = "http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJ2atdfQVGZibKaEQs0CXv9G8Fiasxw3WqwzZV96XnKVOiaNa7DFczuH747aLrJVeiaKEiadQlR4fmtRTA/0?wx_fmt=png";
+      var msg_title = "“爱背词”说明书";
+      var msg_desc = "三秒钟把微信变成背单词神器。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/ErUBGvMdjOJU5CibZ6CvsiclG7xNf4LgTJicTpe07Xa5ic7gZeSiae6Flo3olJKyPLemdD8aibw9WqAbOq7V5iaaxwYxw/0?wx_fmt=png";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzI4NjIzNjQ1NQ==&amp;tempkey=IDx56Q0VI%2B9oxIJEGaeUqZ%2FB3wNLexNA58H%2BBqoJyJvsQnmtRoI9IH2VRJc29Qn5F0pDaamLZ6FjHPYDkhCqpIN61YCsaTgTxLs4eUKgTV6HCJ1XTA9HVM%2FG4BTq043fpSTapos%2Fy9JScpqL2qRT6Q%3D%3D&amp;#rd";
+      var user_uin = "2009073129"*1;
+      var msg_source_url = '';
+      var img_format = 'png';
+      var srcid = '0705tjYooLWVHPp9bFiq7jcb';
+      var req_id = '0502qQUkqKbxsXDjMGJesGVN';
+      var networkType;
+      var appmsgid = '' || '100000016'|| "100000016";
+      var comment_id = "0" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "iMac&amp;nbsp;MacBook8,1&amp;nbsp;OSX&amp;nbsp;OSX&amp;nbsp;10.11.5&amp;nbsp;build(15F34)";
+      var source_encode_biz = "";
+      // var source_username = "";
+      // var profile_ext_signature = "" || "";
+      var reprint_ticket = "";
+      var source_mid = "";
+      var source_idx = "";
+
+      var show_comment = "0";
+      var __appmsgCgiData = {
+            can_use_page : "0"*1,
+            is_wxg_stuff_uin : "0"*1,
+            card_pos : "",
+            copyright_stat : "0",
+            source_biz : "",
+            hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM50CSJuoRVQfXoRziaAuXzicSKa9icwu9QicLwJoGpBxwOPicg/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+      };
+      var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+      var copyright_stat = "0" * 1;
+
+      var pay_fee = "" * 1;
+      var pay_timestamp = "";
+      var need_pay = "" * 1;
+
+      var need_report_cost = "0" * 1;
+      var use_tx_video_player = "0" * 1;
+
+      var friend_read_source = "" || "";
+      var friend_read_version = "" || "";
+      var friend_read_class_id = "" || "";
+
+      var is_only_read = "1" * 1;
+      var read_num = "4" * 1;
+      var like_num = "1" * 1;
+      var liked = "true" == 'true' ? true : false;
+      var is_temp_url = "IDx56Q0VI&amp;nbsp;9oxIJEGaeUqZ/B3wNLexNA58H&amp;nbsp;BqoJyJvsQnmtRoI9IH2VRJc29Qn5F0pDaamLZ6FjHPYDkhCqpIN61YCsaTgTxLs4eUKgTV6HCJ1XTA9HVM/G4BTq043fzvxJZEQIrFe5/bgl9DK3qQ==" ? 1 : 0;
+      var send_time = "1467655608";
+
+      var topic_default_img = 'http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+      // 话题卡片相关数据
+      var wxtopic = {
+        isbn : ""    // 书籍
+      };
+
+      var svr_time = "1467657331" * 1;
+      
+            window.wxtoken = "4285970031";
+          if(!!window.__initCatch){
+        window.__initCatch({
+            idkey : 27613,
+            startKey : 0,
+            limit : 128,
+            reportOpt : {
+                uin : uin,
+                biz : biz,
+                mid : mid,
+                idx : idx,
+                sn  : sn
+            },
+            extInfo : {
+                network_rate : 0.01    //网络错误采样率
+            }
+        });
+    }
+  </script>
+  <script type="text/javascript">
+    var real_show_page_time = +new Date();
+    if (!!window.addEventListener){
+        window.addEventListener("load", function(){
+            window.onload_endtime = +new Date();
+        });
+    }
+          seajs.use('appmsg/index.js');
+  </script>
+
+    </body>
 </html>
+<!--tailTrap<body></body><head></head><html></html>-->
+ 
+
